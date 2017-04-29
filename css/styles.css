@@ -1,0 +1,29 @@
+body {
+	display: none;
+
+}
+
+.jumbotron {
+	margin-top: 50px;
+	background-color: #3593b2;
+}
+
+#title {
+	color: #FFFFFF;
+	text-align: center;
+}
+
+#bio {
+	margin-top: 200px;
+}
+
+
+
+#dulac {
+	margin-top: 50px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 200px;
+}
