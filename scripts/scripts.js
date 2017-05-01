@@ -26,6 +26,12 @@ $("#photography-btn").click(function() {
         'slow');
 });
 
+$("#music-btn").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#music").offset().top},
+        'slow');
+});
+
 $("#contact-btn").click(function() {
     $('html,body').animate({
         scrollTop: $("#contact").offset().top},

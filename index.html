@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-    
-    <head>
+  
+   <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width = device-width, initial-scale = 1">
@@ -17,7 +17,9 @@
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-        <link href="css/styles.css" rel="stylesheet"/>
+        <link href="css/styles.css" rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         
     </head>
     <body>
@@ -40,13 +42,14 @@
               <li><a href="#about" id="about-btn">About</a></li>
               <li><a href="#work" id="work-btn">Work</a></li>
               <li><a href="#photography" id="photography-btn">Photography</a></li>
+              <li><a href="#music" id="music-btn">Music</a></li>
               <li><a href="#contact" id="contact-btn">Contact</a></li>
             </ul>
             </div>
           </div>
-        </div>
-      </nav>
-    <div id="under-bar">
+        </div>   
+      </nav> 
+    <div id="under-bar"></div>
       <div class="jumbotron">
         <div id="title">
           <h1>Alex Dulac</h1>
@@ -59,19 +62,37 @@
       </div>
       -->
       <div id="bio">
-        <div id="about">
-            <h1>About</h1>
-            <p>Lorem ipsum dolor sit amet, sea ne clita everti scaevola, pro ei solet affert. Id aeque volutpat necessitatibus eam, aliquip iuvaret sed ea. Ius atqui consectetuer an, te esse vidit per. Doctus euripidis est an, id est novum mazim iudicabit. Et omnesque suavitate sit, ut vis putent epicuri consectetuer. Vim ut omnium torquatos adversarium, at eros sapientem est, eam novum solet eloquentiam ad.</p> 
-        </div>
-        <hr id="work">
-        <div>
-            <h1>Work</h1>
-            <p>Lorem ipsum dolor sit amet, sea ne clita everti scaevola, pro ei solet affert. Id aeque volutpat necessitatibus eam, aliquip iuvaret sed ea. Ius atqui consectetuer an, te esse vidit per. Doctus euripidis est an, id est novum mazim iudicabit. Et omnesque suavitate sit, ut vis putent epicuri consectetuer. Vim ut omnium torquatos adversarium, at eros sapientem est, eam novum solet eloquentiam ad.</p>
+        <div id="about" class="bio-container">
+            <h1>About</h1> <br>
+            <p>My name is Alex Dulac. I am a Maine native and graduate from the University of Southern Maine.<br>
+            After working in the finance industry for a couple years, I decided to pursue deveopment as a full time focus.</p> 
         </div>
         <hr>
-        <div>
-           <h1 id="photography">Photography</h1>
-           <p>Lorem ipsum dolor sit amet, sea ne clita everti scaevola, pro ei solet affert. Id aeque volutpat necessitatibus eam, aliquip iuvaret sed ea. Ius atqui consectetuer an, te esse vidit per. Doctus euripidis est an, id est novum mazim iudicabit. Et omnesque suavitate sit, ut vis putent epicuri consectetuer. Vim ut omnium torquatos adversarium, at eros sapientem est, eam novum solet eloquentiam ad.</p>
+        <div id="work" class="bio-container">
+            <h1>Work</h1> <br>
+            <p>Currently focusing on:</p>
+                    <span>
+                      <li>Python</li>
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>Bootstrap</li>
+                      <li>JavaScript</li>
+                      <li>jQuery</li>
+                    </span> <br>
+                <p>With a desire to pursue:</p>
+                    <span>
+                      <li>Java</li>
+                      <li>PHP</li>
+                      <li>C</li>
+                      <li>C++</li>
+                      <li>SQL</li>
+                      <li>Ruby</li>
+                    </span>
+        </div>
+        <hr>
+        <div id="photography" class="bio-container">
+           <h1>Photography</h1> <br>
+           <p>Photography enables me to have a continueous creative outlet that can be tapped into anywhere at anytime. My prefered method is shooting with 35mm film.</p>
            <div class="row">
               <div class="col-md-4">
                 <div class="thumbnail">
@@ -106,12 +127,31 @@
             </div>   
         </div>
         <hr>
-        <div>
-           <h1 id="contact">Contact</h1>
-           <p>Lorem ipsum dolor sit amet, sea ne clita everti scaevola, pro ei solet affert. Id aeque volutpat necessitatibus eam, aliquip iuvaret sed ea. Ius atqui consectetuer an, te esse vidit per. Doctus euripidis est an, id est novum mazim iudicabit. Et omnesque suavitate sit, ut vis putent epicuri consectetuer. Vim ut omnium torquatos adversarium, at eros sapientem est, eam novum solet eloquentiam ad.</p>
+        <div id="music" class="bio-container">
+           <h1>Music</h1> <br>
+           <p>Music has always been a passion of mine. Throughout the years, I have learned how to play multiple instiruments, have oragnized shows and tours, and have built multiple products from the ground up. A few of my past projects can be found below.</p>
+           <p><iframe class="bandcamp" src="https://bandcamp.com/EmbeddedPlayer/album=827697270/size=large/bgcol=333333/linkcol=4ec5ec/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://highmorals.bandcamp.com/album/s-t">S/t by High Morals</a></iframe></p>
         </div>
-      </div>
-    </div>
+        <hr>
+        <div id="contact" class="bio-container">
+           <h1>Contact</h1>
+           <h4>Reach out anytime!</h4>
+                <a href="https://github.com/adulac" target="_blank">
+                    <i class="fa fa-4x fa-github-square"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/alexdulac/" target="_blank">
+                    <i class="fa fa-4x fa-linkedin-square"></i>              
+                </a>             
+                <a href="https://www.facebook.com/dulac.alex" target="_blank">
+                    <i class="fa fa-4x fa-facebook-square"></i>
+                </a>
+                <a href="mailto:adulac29@gmail.com">
+                    <i class="fa fa-4x fa-address-card"></i>
+                </a>
+        </div>
+        <hr><br>
+    </div><!-- bio -->
+</div><!-- top -->
 
         <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -119,6 +159,5 @@
         <!-- internal script files -->
     <script src="/Users/Alex/Desktop/Web Development/Scripts/js/bootstrap.min.js"></script>
     <script src="scripts/scripts.js"></script>
-        
-    </body>
-</html>
+            
+</body>
